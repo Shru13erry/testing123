@@ -2,14 +2,14 @@ import java.util.*;
 
 public class r {
     public static void main(String[] args) {
-        Random r = new Random();
+        Scanner s = new Scanner(System.in);
         
-        int n = r.nextInt();
+        int n = s.nextInt();
 
-        if(n%2==0){
+        if(n==0){
             System.out.println("bkb");
         }
-        else if(n%3==0){
+        else if(n==1){
             System.out.println("badminton");
         }
         else{
